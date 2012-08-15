@@ -1,0 +1,31 @@
+<div>
+  <div class ="profile">
+
+  <div id="user_profile">
+   <h3>Client Profile</h3>
+    <ul>
+      <li class = "user_display"><label>Name: </label><span><%= current_user.name.try(:humanize) %></span></li>
+      <li class = "user_display" ><label>Address:</label><span><%= current_user.address.try(:humanize)%></span></li>
+      <li class = "user_display"><label>Organization:</label><span><%= current_user.organization.try(:humanize)%></span></li>
+
+      <li class="user_display"><label>Contact Number:</label><span><%= current_user.phone_no%></span></li>
+    </ul>
+     <%route=request.url%>
+  <%= link_to "Go to Inbox", projects_message_display_path(:back=>route)%>
+      <%= link_to "Edit Profile", projects_user_info_path,:class=>"edit_profile"%>
+      </div>
+  </div>
+  </div>
+  <div class="user_project">
+  <h3>Projects</h3>
+  <ul>
+    <%unless @projects.empty? %>
+      <%@projects.each do |p| %>
+        <li class = "repos"><%= link_to(p.repo,project_path(p.id)) %></li>
+      <% end %>
+    <%else%>
+      <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
+    <%end%>
+  </ul>
+  </div>
+</div>

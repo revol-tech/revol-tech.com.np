@@ -1,0 +1,94 @@
+.span_flash{
+  color:#336699;
+  width:300px;
+  margin-left:435px;
+
+  float:left;
+}
+#signin,#signup,#user_info,.attendance_login{
+   width:355px;
+   margin-left:275px;
+   display:block;
+   float:left;
+
+}
+.notice{
+color:red;
+}
+#signin label,#signup label{
+    font-size:12px;
+    margin:20px 0 0 0;
+    text-align:left;
+    width:0 auto;
+    float:left;
+    width:100px;
+
+}
+.attendance_login label{
+    font-size:12px;
+
+    text-align:left;
+    width:0 auto;
+    float:left;
+    width:100px;
+
+}
+#user_info label{
+    font-size:12px;
+
+    text-align:left;
+    width:100px;
+    float:left;
+
+}
+input[type="button"], input[type="reset"], input[type="submit"]
+{
+   margin: 5px 0 0 100px;
+}
+#signin input,#signup input,#user_info input
+{
+
+
+}
+#user_remember_me{
+margin:23px 0 0 10px !important;
+}
+.submit{
+ margin:10px 0 0 130px !important;
+}
+#user_profile{
+  width:350px;
+  float:left;
+  margin:25px 0 0 230px;
+
+}
+#user_profile label{
+ text-align:left;
+ font-size:15px;
+ font-family:"Helvetica Neue",Helvetica,Arial;
+ line-height:5px;
+ float:left;
+ width:120px;
+ margin:6px 0 0 0;
+}
+
+
+.user_project{
+  width:300px;
+  float:left;
+  margin:25px 0 0 45px;
+}
+.edit_profile{
+ margin-left:75px;
+
+}
+.repos{
+font-size:18px;
+margin:10px 0 0 0;
+}
+.sign_up{
+float:right;
+}
+.tab-pane li{
+  width:100% !important;
+}

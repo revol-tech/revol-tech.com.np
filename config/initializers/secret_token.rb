@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-RevolTechComNp::Application.config.secret_token = '22bd7fae9992c16dcdbcbc81bf272a05f69c695b044fcd671d100cbfa21d91b2cb201828b632478362079547b8106cb5ff55eb74dae3feb7ae659ba69127cf67'
+RevolTechGithubCom::Application.config.secret_token = '7a04a6c000a967395c89907fa264783d8f24025604265cf3c38f4fa2cf876fe8065829522eb928445fcf4e32409eb1f9631896e13063813f6904b6edbfb4f0c4'

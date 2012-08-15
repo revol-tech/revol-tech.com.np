@@ -1,0 +1,17 @@
+<%route=request.url%>
+<%=link_to "Main",params[:back]%>
+</br>
+</br>
+<% @message.each do |t| %>
+	<%if t.to==current_user.name%>
+		<div class="message">
+			<p>From:<%=t.from%></p>
+			<title>Message:</title>
+			<%= simple_format(t.subject)%>
+		</div>
+		<%=link_to "Reply",messages_new_path(:name=>[t.from,route])	%>
+		</br>
+		</br>
+		</br>
+	<%end%>
+<%end%>
