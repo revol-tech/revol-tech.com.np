@@ -1,25 +1,26 @@
 default_run_options[:pty] = true
 require "bundler/capistrano"
 # Add RVM's lib directory to the load path.
-$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
+#$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
 # Load RVM's capistrano plugin.
 require "rvm/capistrano"
 
-set :application, "revol-tech"
-set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
+set :application, "Beta revol-tech"
+set :repository,  "git@github.com:revol-tech/revol-tech.com.np.git"
 set :use_sudo, false  #permission conflict resolve
 set :scm, :git
+set :rvm_type, :system
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/home/deploy/www/revol-tech.com.np"
+set :deploy_to, "/home/deploy/www/beta.revol-tech.com.np"
 
-role :web, "revol-tech.com.np"                          # Your HTTP server, Apache/etc
-role :app, "revol-tech.com.np"                          # This may be the same as your `Web` server
-role :db,  "revol-tech.com.np", :primary => true # This is where Rails migrations will run
+role :web, "beta.revol-tech.com.np"                          # Your HTTP server, Apache/etc
+role :app, "beta.revol-tech.com.np"                          # This may be the same as your `Web` server
+role :db,  "beta.revol-tech.com.np", :primary => true # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
 set :user, "deploy"
-set :scm_username, 'xecutioner'
+set :scm_username, 'revol-tech'
 set :bundle_gemfile,  "Gemfile"
   set :bundle_dir,""
   set :bundle_flags,""

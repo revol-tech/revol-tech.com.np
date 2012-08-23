@@ -18,6 +18,7 @@ p.tagline{
     margin-bottom: 20px;
 }
 div.banner_text{
+margin: 0 0 0 ;
 
 }
 p.sub_tagline{
@@ -25,7 +26,8 @@ font-size:24px;
 margin:0% 0% 0% 22%
 }
 img.logo{
-    margin: 6% 0 0 0;
+      float: left;
+   // margin: 6% 0 0 0;
    // -webkit-box-shadow: 0 14px 8px -1px black;
     //-moz-box-shadow: 0 14px 8px -1px black;
     //box-shadow:  0 14px 8px -1px black;
