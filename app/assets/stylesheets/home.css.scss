@@ -42,17 +42,8 @@ font-size:24px;
 margin:0% 0% 0% 22%
 }
 
-div.nav{
-  float:right;
-  width:960px;
-  margin:0 auto;
-   padding: 10px 0 0;
-}
-div.nav ul li.date {
-    color: #999999;
-    float: left;
-    padding-top: 4px;
-}
+
+
 div.nav ul {
     margin: 0;
     padding: 0;
@@ -90,15 +81,14 @@ hr.stars{
 div.quote h3{
     font-weight: 400;
     line-height: 1.3em;
-    margin: -6% 0 0 -1%;
-    padding: 8%;
+
     text-align: justify;
 }
 
 /// slider csss
 .rotator{
     background-color:#222;
-    width:800px;
+    width:960px;
     height:300px;
     margin:0px auto;
     position:relative;
@@ -134,7 +124,7 @@ img.bg{
 .rotator ul li a{
     width:230px;
     height:52px;
-    float:right;
+
     clear:both;
     padding-left:10px;
     text-decoration:none;

@@ -16,7 +16,7 @@ gem 'kaminari'
 gem 'newrelic_rpm'
 # Deploy with Capistrano
  gem 'capistrano'
-
+ gem 'rvm-capistrano'
 group :production do
   gem 'therubyracer'
 end
