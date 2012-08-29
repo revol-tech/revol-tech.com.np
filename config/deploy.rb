@@ -9,10 +9,11 @@ set :application, "beta"
 set :repository, "git@github.com:revol-tech/revol-tech.com.np.git"
 set :use_sudo, false #permission conflict resolve
 set :scm, :git
+set :rvm_type, :system
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/home/deploy/beta/revol-tech.com.np"
+set :deploy_to, "/home/deploy/www/beta.revol-tech.com.np"
 
 role :web, "beta.revol-tech.com.np" # Your HTTP server, Apache/etc
 role :app, "beta.revol-tech.com.np" # This may be the same as your `Web` server
