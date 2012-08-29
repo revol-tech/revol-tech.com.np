@@ -1,5 +1,18 @@
-   <%= render "slider"%>
-   <hr class="stars">
-   <p class="sub_tagline">Smarter business through smarter web apps.</p>
-   <%= render "quote" %>
-   <%= render "banner"%>
+<div id="main_wrapper">
+      <div id="navigation">
+           <%= render "home/top_links"%>
+      </div><!--end of navigation-->
+
+      <div class="container">
+            <div id="wrapper">
+                <%= render "slider"%>
+                <hr class="stars">
+                <%= render "quote" %>
+                <%= render "lowercontent"%>
+           </div> <!--end of wrapper-->
+      </div> <!--end of container-->
+      <div id="footer">
+           <%= render "home/footer"%>
+      </div>
+
+  </div> <!--end of main_wrapper-->

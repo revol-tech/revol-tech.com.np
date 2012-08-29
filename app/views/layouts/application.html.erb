@@ -9,26 +9,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-
-
-   <!--ali-->
-
-
-  <div id="wrap">
-    <div id="main" class="clearfix">
-      <div class="container">
-           <%= render "home/top_links"%>
-        <!--   <%= render "home/logo" %>  -->
-           <%= yield %>
-            <span class="span_flash"> <%= flash[:notice]%></span>
-     </div>
-
-	</div>
-</div>
-<div id="footer"">
-<%= render "home/footer"%>
-</div>
-<!--ali-->
+ <%= yield %>
+      <span class="span_flash"> <%= flash[:notice]%></span>
 </body>
 </html>

@@ -1,9 +1,0 @@
-.message_area{
-	width:800px;
-}
-
-.display_form_none{
-	display:none;
-}
-
-
