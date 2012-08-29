@@ -9,7 +9,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+   <div id="header"> <div id="navigation">
+           <%= render "home/top_links"%>
+      </div><!--end of navigation-->
+      </div>
+<div id="main_wrapper">
+    <div class="container">
+            <div id="wrapper">
  <%= yield %>
       <span class="span_flash"> <%= flash[:notice]%></span>
+            </div> <!--end of wrapper-->
+      </div> <!--end of container-->
+        </div> <!--end of main_wrapper-->
+       <div id="footer">
+           <%= render "home/footer"%>
+      </div>
 </body>
 </html>
