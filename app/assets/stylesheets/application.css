@@ -14,10 +14,17 @@
 #navigation{
   width:100%;
   height:53px;
-
+  position:fixed;
   display:block;
+  background:#393939;
   border-bottom:1px solid #000;
   z-index:1;
+}
+#header{
+width:100%;
+height:53px;
+ float:left;
+ display:block;
 }
 .nav{
    width:960px;
