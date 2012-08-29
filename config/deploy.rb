@@ -11,7 +11,7 @@ set :use_sudo, false #permission conflict resolve
 set :scm, :git
 set :rvm_type, :system
 
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+#// Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 set :deploy_to, "/home/deploy/www/beta.revol-tech.com.np"
 
