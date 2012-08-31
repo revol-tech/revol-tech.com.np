@@ -8,7 +8,7 @@
 .about h2{
 
 }
-#services{
+#service_wrapper{
 float:left;
 
 }
@@ -33,34 +33,47 @@ float:left;
    color:#3f87b7 !important;
    margin-left:130px;
 }
-#ror,#collaboration,#developer{
- background: none repeat scroll 0 0 #646464;
-    border-radius: 10px 10px 10px 10px;
+
+.service_content{
+   width:100%;
+	 float:left;
+	 display:block;
+
+}
+
+.service {
+
+    display: block;
     float: left;
-    height: 300px;
-    margin: 30px 0 0;
-    padding: 0 25px;
-    text-align: justify;
-    width: 400px;
-
+    margin: 30px 30px 0 0;
+    width: 290px;
 }
-#e_commerse h3,#collaboration h3,#media_sites h3,#ror h3,#developer h3,#cms h3{
-  color:#31b3ff;
-  margin:5px 0 0 0px;
 
+.service_image{
+    border: 1px solid #000;
+    height: 120px;
+		float:left;
+    margin: 0px 0 20px 10px;
+    width: 260px;
+    overflow:hidden;
+		display:block;
 }
-#e_commerse p,#collaboration p,#media_sites p,#ror p,#developer p,#cms p{
- color:#fff;
 
+.service_text {
+    margin:0px 0 0 10px;
+    width: 260px;
+
+		float:left;
+		display:block;
+		overflow:hidden;
+		padding: 10px 10px 10px 10px;
 }
-#media_sites,#e_commerse,#cms{
- background: none repeat scroll 0 0 #646464;
-    border-radius: 10px 10px 10px 10px;
-    float: left;
-    height: 300px;
-    margin: 30px 0 0 30px;
-    padding: 0 25px;
-    text-align: justify;
-    width: 400px;
 
+.service_text p{
+
+						text-align: justify;
+						color: #777978;
+						font:normal 16px/18px "arial";
+						float:left;
+						display:block;
 }
