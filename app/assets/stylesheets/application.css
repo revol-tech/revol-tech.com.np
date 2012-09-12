@@ -12,7 +12,7 @@
  width:100%;
 }
 #navigation{
-   background: #1c87c3;
+   background-color:rgba(0,96,160,0.8);
 
     display: block;
     height: 60px;
@@ -43,7 +43,7 @@ height:53px;
  width:100%;
  float:left;
  display:block;
- margin:60px 0 0 0;
+ margin:90px 0 0 0;
 }
 #wrapper{
  margin:0 auto;
@@ -56,18 +56,87 @@ height:53px;
 
 }
 .banner{
-   float:left;
-   border-bottom:3px solid #696a75;
+   width:100%;
+   display:block;
+   background:url("banner_2.png") no-repeat center top;
+   height:355px;
+
 
 }
-.quote{
+#scarp{
+   width:860px;
+   margin:0 auto;
+   display:block;
+   height:194px;
+   background-color:#1c87ce;
+   padding:32px 50px 0px 50px;
+
+}
+#scarp a.learn_more{
+color:#fff;
+
+}
+#scarp a.learn_more:hover{
+opacity:0.8;
+
+}
+.learn_more{
   display:block;
-  float:left;
-  height:160px;
-  margin:20px 0 0 0;
+  float:right;
+  margin:33px 0 0 0;
+  font:12px arial;
+  text-decoration:none;
 
 }
+.learn_more small{
+padding:12px 0 0 0;
+float:left;
+font-size:12px;
+}
+.learn_more span{
+height:40px;
+width:40px;
+border:1px solid #ffffff;
+border-right:none;
+border-bottom:none;
+background:url("learn_more.png") no-repeat center;
+display:block;
+float:right;
+ margin: 0 -50px 0 0;
+}
+.social_media{
 
+
+ margin:30px 0 0 0;
+width:960px;
+display:block;
+   height:194px;
+   padding:32px 0;
+   background-color:#4c4d5a;
+
+}
+.social_links{
+   display:block;
+   width:94px;
+   height:144px;
+   padding:0 113px;
+   float:left;
+   margin:52px 0 0 0;
+}
+.social_box{
+  display:block;
+  height:44px;
+  width:44px;
+  padding:25px;
+  background-color:#3c3e4d;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.social_box:hover{
+ background-color:#2d2e3c;
+}
 #lower_content{
 float:left;
  margin:30px 0 0 0;
@@ -138,12 +207,7 @@ float:left;
    width:300px;
    float:left;
 }
-#social-icons{
-   float:left;
-   display:block;
-   width:358px;
 
-}
 #main_footer ul {
     float: left;
     list-style: none outside none;
@@ -191,28 +255,4 @@ color:#f36363;
     line-height: 24px;
     margin: 0;
     padding: 0;
-}
-.facebook {
-    background: url("footer-icons-sprite.png") no-repeat scroll -35px top ;
-    display: block;
-    height: 35px;
-    width: 33px;
-    float:left;
-}
-
-
-
-.twitter {
-    background: url("footer-icons-sprite.png") no-repeat scroll left top ;
-    display: block;
-    float:left;
-    height: 35px;
-    width: 33px;
-}
-.rss {
-    background: url("footer-icons-sprite.png") no-repeat scroll right top ;
-    display: block;
-    float:left;
-    height: 35px;
-    width: 33px;
 }
