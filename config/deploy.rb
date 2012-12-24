@@ -13,11 +13,11 @@ set :rvm_type, :system
 
 #// Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/home/deploy/www/beta.revol-tech.com.np"
+set :deploy_to, "/home/deploy/www/revol-tech.com.np"
 
-role :web, "beta.revol-tech.com.np" # Your HTTP server, Apache/etc
-role :app, "beta.revol-tech.com.np" # This may be the same as your `Web` server
-role :db, "beta.revol-tech.com.np", :primary => true # This is where Rails migrations will run
+role :web, "revol-tech.com.np" # Your HTTP server, Apache/etc
+role :app, "revol-tech.com.np" # This may be the same as your `Web` server
+role :db, "revol-tech.com.np", :primary => true # This is where Rails migrations will run
 #role :db, "your slave db-server here"
 set :user, "deploy"
 set :scm_username, 'revol-tech'

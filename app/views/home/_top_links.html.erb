@@ -5,49 +5,13 @@
   <a href="/"><%= image_tag "revol_tech_nepal_logo.png"%></a>
 
 </div>
-<div class="nav_menu">
-  <ul>
-   <!-- <li class="date">
-      <% time = Time.new %>
-      <%= time.strftime("Happy %A")%>
-    </li>
-  -->
-
-    <li>
-      <a href="/home/services">Revol tech Services</a>
-
-    </li>
-    <li>
-      <a href="http://revol-tech.posterous.com/" TARGET="_blank">Revolution Blog</a>
-    </li>
-    <li>
-      <a href="/home/revolutionaries">Revolutionaries</a>
-
-    </li>
-    <li>
-      <a href="/home/portfolio">Portfolio</a>
-
-    </li>
-    <li>
-      <a href="/careers">Careers</a>
-
-    </li>
-    <li>
-      <a href="https://twitter.com/RevolTech2"  data-show-count="false" data-width="200px" TARGET="_blank">Follow us on Twitter </a>
-    </li>
-    <% unless user_signed_in? %>
-    <li>
-      <%= link_to("sign in",new_user_session_path) %>
-
-    </li>
-    <% else %>
-    <li>
-      <%= link_to("projects",projects_path)%>
-    </li>
-    <li>
-      <%= link_to("sign out", destroy_user_session_path, :method => :delete)%>
-    </li>
-    <%end %>
-  </ul>
+<div class="follow_us">
+    <span>Follow Us :</span>
+    <a class="facebook" target="_blank" "="" href="http://www.facebook.com/pages/Revol-Tech-Nepal/233701270029361">
+<img src="/assets/facebook.png" alt="Facebook">
+</a>
+<a class="twitter" target="_blank" href="https://twitter.com/RevolTechNepal" data-show-count="false">
+<img src="/assets/twitter.png" alt="Twitter">
+</a>
 </div>
 </div>
